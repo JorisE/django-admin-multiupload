@@ -39,7 +39,7 @@
 {% endif %}{% endblock %}
 
 {% block content %}
-<a href="../{%if is_popup %}?pop=1{% endif %}">Voltar</a>
+<a href="../{%if is_popup %}?pop=1{% endif %}">{% trans 'Return' %}</a>
 
 <div id="fileupload">
     <form action="." method="POST" enctype="multipart/form-data">
@@ -48,18 +48,18 @@
             <label class="fileinput-button">
                 <span class="btn btn-primary">
                     <i class="icon-plus-sign icon-white"></i>
-                  Adicionar</span>
+                  {% trans 'Add files' %}</span>
                 <input type="file" name="files[]" multiple>
             </label>
             <button type="submit" class="btn btn-success start">
               <i class="icon-upload icon-white"></i>
-              Iniciar Envio</button>
+              {% trans 'Start uploading' %}</button>
             <button type="reset" class="btn btn-warning cancel"> 
               <i class="icon-warning-sign icon-white"></i>
-              Cancelar Envio</button>
+              {% trans 'Cancel uploading' %}</button>
             <button type="button" class="btn btn-danger delete">
               <i class="icon-trash icon-white"></i>
-              Deletar Arquivos</button>
+              {% trans 'Delete files'}</button>
         </div>
         <div class="span5 fileupload-progress fade">
           <!-- The global progress bar -->

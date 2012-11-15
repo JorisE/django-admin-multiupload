@@ -29,19 +29,19 @@ msgid "Home"
 msgstr "Inicio"
 
 #: templates/multiupload/upload.html:47
-msgid "add files"
+msgid "Add files"
 msgstr "Adicionar"
 
 #: templates/multiupload/upload.html:50 templates/multiupload/upload.html:161
-msgid "Start"
+msgid "Start uploading"
 msgstr "Iniciar envio"
 
 #: templates/multiupload/upload.html:51 templates/multiupload/upload.html:162
-msgid "Cancel"
+msgid "Cancel uploading"
 msgstr "Cancelar envio"
 
 #: templates/multiupload/upload.html:52 templates/multiupload/upload.html:163
-msgid "Delete"
+msgid "Delete files"
 msgstr "Deletar"
 
 #: templates/multiupload/upload.html:153
